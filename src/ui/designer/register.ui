@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>730</width>
+    <height>504</height>
+   </rect>
+  </property>
+  <property name="font">
+   <font>
+    <family>Marlett</family>
+   </font>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QWidget" name="widget" native="true">
+   <property name="geometry">
+    <rect>
+     <x>9</x>
+     <y>19</y>
+     <width>701</width>
+     <height>471</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Segoe UI</family>
+    </font>
+   </property>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>30</y>
+      <width>321</width>
+      <height>431</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-image: url(:/images/Gemini_Generated_Image_k3pdhzk3pdhzk3pd.jpeg);
+border-top-left-radius: 50px;
+</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>360</x>
+      <y>30</y>
+      <width>321</width>
+      <height>431</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color:rgb(255, 255, 255);
+border-bottom-right-radius:50px;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>480</x>
+      <y>70</y>
+      <width>100</width>
+      <height>40</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>20</pointsize>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color:rgba(0, 0, 0, 200);</string>
+    </property>
+    <property name="text">
+     <string>Sign Up</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit">
+    <property name="geometry">
+     <rect>
+      <x>400</x>
+      <y>140</y>
+      <width>121</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgba(0, 0, 0, 0); /* خلفية شفافة */
+border: none;
+border-bottom: 2px solid rgba(46, 82, 101, 0.8); /* استخدمي rgba بدل rgb مع قيمة شفافية */
+color: rgba(0, 0, 0, 0.8); /* اللون مع شفافية مناسبة */
+padding-bottom: 7px; /* كانت مكتوبة غلط: padding-bootom */
+</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="placeholderText">
+     <string>First Name</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_2">
+    <property name="geometry">
+     <rect>
+      <x>400</x>
+      <y>250</y>
+      <width>261</width>
+      <height>40</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgba(0, 0, 0, 0); /* خلفية شفافة */
+border: none;
+border-bottom: 2px solid rgba(46, 82, 101, 0.8); /* استخدمي rgba بدل rgb مع قيمة شفافية */
+color: rgba(0, 0, 0, 0.8); /* اللون مع شفافية مناسبة */
+padding-bottom: 7px; /* كانت مكتوبة غلط: padding-bootom */
+</string>
+    </property>
+    <property name="echoMode">
+     <enum>QLineEdit::EchoMode::Password</enum>
+    </property>
+    <property name="placeholderText">
+     <string>Password</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton">
+    <property name="geometry">
+     <rect>
+      <x>400</x>
+      <y>370</y>
+      <width>251</width>
+      <height>50</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Segoe UI</family>
+      <pointsize>11</pointsize>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton#pushButton {
+    background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(30, 123, 111, 255), stop:1 rgba(95, 112, 228, 255));
+    color: white;
+    border-radius: 20px;
+    padding: 8px 20px;
+}
+
+QPushButton#pushButton:hover {
+    background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(30, 123, 111, 255), stop:1 rgba(81, 84, 228, 255));
+}
+
+QPushButton#pushButton:pressed {
+    padding-top: 5px;
+    padding-left: 5px;
+    background-color: rgb(30, 123, 111);
+}
+
+QPushButton#pushButton_2 {
+    background-color: transparent;
+    color: rgba(85, 98, 112, 1);
+    border: none;
+}
+
+QPushButton#pushButton_2:hover {
+    color: rgba(131, 96, 53, 1);
+}
+
+QPushButton#pushButton_2:pressed {
+    padding-top: 5px;
+    padding-left: 5px;
+    color: rgba(91, 88, 53, 1);
+}
+</string>
+    </property>
+    <property name="text">
+     <string>R e g i s t r a t i o n</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_3">
+    <property name="geometry">
+     <rect>
+      <x>400</x>
+      <y>310</y>
+      <width>261</width>
+      <height>40</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgba(0, 0, 0, 0); /* خلفية شفافة */
+border: none;
+border-bottom: 2px solid rgba(46, 82, 101, 0.8); /* استخدمي rgba بدل rgb مع قيمة شفافية */
+color: rgba(0, 0, 0, 0.8); /* اللون مع شفافية مناسبة */
+padding-bottom: 7px; /* كانت مكتوبة غلط: padding-bootom */
+</string>
+    </property>
+    <property name="echoMode">
+     <enum>QLineEdit::EchoMode::Password</enum>
+    </property>
+    <property name="placeholderText">
+     <string>Confirm Password</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_4">
+    <property name="geometry">
+     <rect>
+      <x>400</x>
+      <y>190</y>
+      <width>261</width>
+      <height>40</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgba(0, 0, 0, 0); /* خلفية شفافة */
+border: none;
+border-bottom: 2px solid rgba(46, 82, 101, 0.8); /* استخدمي rgba بدل rgb مع قيمة شفافية */
+color: rgba(0, 0, 0, 0.8); /* اللون مع شفافية مناسبة */
+padding-bottom: 7px; /* كانت مكتوبة غلط: padding-bootom */
+</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="echoMode">
+     <enum>QLineEdit::EchoMode::Normal</enum>
+    </property>
+    <property name="placeholderText">
+     <string>Email Address</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_5">
+    <property name="geometry">
+     <rect>
+      <x>540</x>
+      <y>140</y>
+      <width>121</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgba(0, 0, 0, 0); /* خلفية شفافة */
+border: none;
+border-bottom: 2px solid rgba(46, 82, 101, 0.8); /* استخدمي rgba بدل rgb مع قيمة شفافية */
+color: rgba(0, 0, 0, 0.8); /* اللون مع شفافية مناسبة */
+padding-bottom: 7px; /* كانت مكتوبة غلط: padding-bootom */
+</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="placeholderText">
+     <string>Last Name</string>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources>
+  <include location="src.qrc"/>
+ </resources>
+ <connections/>
+</ui>
